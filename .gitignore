@@ -1,0 +1,33 @@
+.venv-agent/
+.venv-train/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Local env and secrets
+.env
+.env.*
+
+# Logs and generated outputs
+Financial-MCP-Agent/logs/
+Financial-MCP-Agent/reports/
+
+# OS / editor
+.vscode/
+.idea/
+Thumbs.db
+
+# Model / cache artifacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+huggingface/
+small_model/
+
+*.bak
